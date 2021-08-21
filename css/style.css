@@ -1,0 +1,42 @@
+body {
+    background-color: #dfeeea;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.nav-pills .nav-link:hover {
+    color: black;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #2f5d62;
+    color: white;
+    margin: 2px 3px;
+}
+
+.nav-link {
+    color: #5e8b7e;
+}
+
+.news-hlts {
+    margin-top: 20px;
+}
+
+.news-hlts .accordion-button {
+    background-color: #a7c4bc;
+    /* color: white; */
+}
+
+.news-hlts .accordion-button::after{
+    color: white;
+}
